@@ -1,0 +1,30 @@
+{
+  "name": "intelli-node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "intelliHR",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": [
+      "*.json",
+      "*.md"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "node-mocks-http": "^1.11.0"
+  }
+}
